@@ -1,6 +1,6 @@
-Flask==2.2.2
-scikit-learn==1.2.2
 pandas==2.0.0
+numpy==1.21.6
+scikit-learn==1.2.2
+Flask==2.2.2
 gunicorn==19.9.0
 Werkzeug==2.2.2
-numpy==2.0.2
