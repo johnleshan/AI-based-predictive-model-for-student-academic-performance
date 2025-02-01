@@ -17,4 +17,4 @@ def predict():
     return render_template('index.html', prediction_text=f'Predicted Performance: {"Pass" if prediction == 1 else "Fail"}')
 
 if __name__ == '__main__':
-    app.run(debug=True, port=4444)
+    app.run(host='0.0.0.0', port=4444)
